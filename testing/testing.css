@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container{
+    background-color: #5995DA;  /* Blue */
+    padding:10px 0;
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.menu{
+    border: 2px solid #E16D68;
+}
+.header-container{
+  background-color: #D6E9FE;   
+}
+
+.photo-grid-container{
+    background-color: #E512EF;
+}
+.footer{
+   background-color: #7DCBA0;   
+}

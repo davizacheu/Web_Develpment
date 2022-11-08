@@ -1,0 +1,65 @@
+body{
+    
+    background-color: #B6CCCC;
+    font-size: 20px;
+    font-family: "Brush Script MT",  cursive;
+}
+
+h1 {
+  width: 200px;
+  font-size: 1.5em;
+  background-color: #FF0000;
+  text-align: center;
+  
+}
+
+p{
+    
+    background-color: #FF8000;
+    text-align: center;
+    padding: 20px 10px;
+    border: 10px dashed #42A01C;
+    
+}
+
+strong{
+    color: #4CDA64;
+    background-color: #DAD84C;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+}
