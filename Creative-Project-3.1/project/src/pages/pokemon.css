@@ -1,0 +1,157 @@
+.search{
+    display: block;
+    background-image: url(images/pikachu-wallpaper.jpg);
+    background-size:cover;
+    height: 100%;
+}
+
+@media only screen and (min-width: 960px){
+    .webtitle{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 35%;
+    }
+    
+    .prompt{
+        margin-top: 17%;
+        width: 90%;
+    }
+
+    .name-form{
+        display: block;
+        width: 35%;
+    }
+
+    #pokemonField{
+        float: right;
+        margin-right: 10%;
+        margin-bottom: 1px;
+        min-width: 30%;
+        min-height: 5%;
+    }
+
+    #inputBreak{
+        height: 3%;
+    }
+
+    #pokemonButton{
+        float: right;
+        margin-right: 10%;
+        min-width:10%;
+        min-height:5%;
+    }
+
+    
+
+    .card{
+        transition: opacity 4s ease-in-out;
+        height: fit-content;
+        width: 100%;
+        margin-left: 8%;
+        box-shadow: 0 0 30px rgb(254, 233, 0);
+        width: 20%;
+    }
+    
+    .footer{
+        display:flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #gitlink{
+        width:100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #linkpic{
+        width: 30%;
+        margin-right: 3.5%;
+    }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body{
+        display: block;
+        background-image: url(images/bulbasaur.jpeg);
+        background-size: 100%;
+    }
+    
+    .logo {
+        width: 50%;
+    }
+
+    .prompt{
+
+        width: 100%;
+    }
+
+    .name-form{
+        display: block;
+        width: 47%;
+    }
+
+    #pokemonField{
+        margin-right: 10%;
+        margin-bottom: 1px;
+        min-width: 30%;
+        min-height: 5%;
+    }
+
+    #pokemonButton{
+        margin-right: 10%;
+        min-width:10%;
+        min-height:5%;
+    }
+
+    #pokemonResults{
+        margin-top: 5%;
+        opacity: 0;
+        transition: opacity 4s ease-in-out;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .card{
+        margin-left: 8%;
+        box-shadow: 0 0 30px rgb(254, 233, 0);
+        width: 30%;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    body{
+        display: block;
+        background-image: url(images/charizard.jpg);
+        background-size:cover;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+    
+    .prompt{
+        width: 100%;
+    }
+
+    #pokemonResults{
+        margin-top: 5%;
+        opacity: 0;
+        transition: opacity 4s ease-in-out;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .card{
+        margin-left: 16%;
+        box-shadow: 0 0 30px rgb(254, 233, 0);
+        width: 70%;
+    }
+}

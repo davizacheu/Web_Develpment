@@ -1,0 +1,6 @@
+.about{
+    display: block;
+    background-image: url(images/reportWebVitals.jpeg);
+    background-size:cover;
+    height: 100%;
+}
